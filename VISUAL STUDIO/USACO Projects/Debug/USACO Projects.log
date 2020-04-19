@@ -1,0 +1,4 @@
+﻿  skidesign.cpp
+D:\Users\richa\Desktop\Misc\VISUAL STUDIO\USACO Projects\skidesign.cpp(29,20): warning C4018: '<': signed/unsigned mismatch
+D:\Users\richa\Desktop\Misc\VISUAL STUDIO\USACO Projects\skidesign.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+  USACO Projects.vcxproj -> D:\Users\richa\Desktop\Misc\VISUAL STUDIO\USACO Projects\Debug\USACO Projects.exe
