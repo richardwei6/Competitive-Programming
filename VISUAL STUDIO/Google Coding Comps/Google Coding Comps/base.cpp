@@ -1,5 +1,5 @@
 
-/*
+
 
 #include <iostream>
 #include <algorithm>
@@ -12,15 +12,18 @@
 #include <cmath>
 using namespace std;
 
+#define ll long long
+#define V vector
+
 void solve() {
 
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
+	cin.tie(0);
 	int t;
 	cin >> t;
-
 	for (int i = 1; i <= t; i++) {
 		cout << "Case #" << i << ": ";
 		solve();
@@ -29,4 +32,3 @@ int main() {
 }
 
 
-*/
