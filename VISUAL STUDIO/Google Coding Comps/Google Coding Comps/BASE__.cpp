@@ -14,6 +14,7 @@
 #include <cmath>
 using namespace std;
 
+#pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
 

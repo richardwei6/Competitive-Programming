@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <algorithm>
 #include <string>
 #include <vector>
@@ -9,6 +9,7 @@
 #include <cmath>
 using namespace std;
 
+#pragma GCC optimize("Ofast") 
 #define ll long long
 #define V vector
 
@@ -75,3 +76,4 @@ int main() {
 	}
 	return 0;
 }
+*/
