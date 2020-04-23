@@ -13,28 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Kick Start">
+      <UniqueIdentifier>{41d01df9-6a1b-43ad-a0f0-f1185854e892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kick Start\Round B">
+      <UniqueIdentifier>{a96e416e-2fcf-424e-9c61-41fd50f465ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Code Jam">
+      <UniqueIdentifier>{507f65ff-5faf-4d29-8b02-53e48ae1f007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Code Jam\Qualification">
+      <UniqueIdentifier>{afd75f45-d0a1-4859-818b-13459a71ae8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="allocation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="plates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bikepeak.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="busroutes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="robot.cpp">
+    <ClCompile Include="BASE__.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="wanderingrobot.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Kick Start\Round B</Filter>
     </ClCompile>
-    <ClCompile Include="BASE__.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="robot.cpp">
+      <Filter>Source Files\Kick Start\Round B</Filter>
+    </ClCompile>
+    <ClCompile Include="busroutes.cpp">
+      <Filter>Source Files\Kick Start\Round B</Filter>
+    </ClCompile>
+    <ClCompile Include="bikepeak.cpp">
+      <Filter>Source Files\Kick Start\Round B</Filter>
+    </ClCompile>
+    <ClCompile Include="allocation.cpp">
+      <Filter>Source Files\Code Jam\Qualification</Filter>
+    </ClCompile>
+    <ClCompile Include="plates.cpp">
+      <Filter>Source Files\Code Jam\Qualification</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
