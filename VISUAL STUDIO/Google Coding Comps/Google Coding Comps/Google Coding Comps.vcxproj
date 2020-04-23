@@ -139,7 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="allocation.cpp" />
-    <ClCompile Include="base.cpp" />
+    <ClCompile Include="BASE__.cpp" />
     <ClCompile Include="bikepeak.cpp" />
     <ClCompile Include="busroutes.cpp" />
     <ClCompile Include="plates.cpp" />
