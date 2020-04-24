@@ -75,5 +75,8 @@
     <ClCompile Include="skidesign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ariprog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

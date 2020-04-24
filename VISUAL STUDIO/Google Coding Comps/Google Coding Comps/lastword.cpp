@@ -1,14 +1,8 @@
-
-
-/*
-
-
 #include <iostream>
 #include <algorithm>
 #include <string>
 #include <vector>
 #include <map>
-#include <unordered_map>
 #include <set>
 #include <unordered_set>
 #include <functional>
@@ -18,9 +12,20 @@ using namespace std;
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
-
+/*
 void solve() {
-
+	string s, o;
+	cin >> s;
+	o = s[0];
+	for (int i = 1; i < s.size(); i++) {
+		if (o[0] <= s[i]) {
+			o.insert(begin(o), s[i]);
+		}
+		else {
+			o += s[i];
+		}
+	}
+	cout << o << endl;
 }
 
 int main() {
@@ -34,7 +39,4 @@ int main() {
 	}
 	return 0;
 }
-
-
 */
-

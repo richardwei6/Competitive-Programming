@@ -1,8 +1,3 @@
-
-
-/*
-
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -20,7 +15,27 @@ using namespace std;
 #define V vector
 
 void solve() {
+	set<int> o;
+	unordered_map<int, int> a;
+	int n;
+	cin >> n;
+	for (int i = 0; i < (2 * n) - 1; i++) {
+		for (int j = 0; j < n; j++) {
+			int p;
+			cin >> p;
+			a[p]++;
+		}
+	}
+	for (auto i : a) {
+		if (i.second%2!=0) {
+			o.insert(i.first);
+		}
+	}
 
+	for (int i : o) {
+		cout << i << " ";
+	}
+	cout << endl;
 }
 
 int main() {
@@ -34,7 +49,3 @@ int main() {
 	}
 	return 0;
 }
-
-
-*/
-
