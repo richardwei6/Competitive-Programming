@@ -13,7 +13,7 @@ using namespace std;
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
-
+/*
 void solve() {
 	set<int> o;
 	unordered_map<int, int> a;
@@ -49,3 +49,4 @@ int main() {
 	}
 	return 0;
 }
+*/
