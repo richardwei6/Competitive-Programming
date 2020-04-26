@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AandBCompErrors.cpp" />
+    <ClCompile Include="BASE.cpp" />
+    <ClCompile Include="FlippingGame.cpp" />
+    <ClCompile Include="NastyaAndDoor.cpp" />
+    <ClCompile Include="TwoButtons.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{7714203F-C2A8-4241-8378-B3034F1FAB5D}</ProjectGuid>
@@ -137,9 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="nastyaandrice.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

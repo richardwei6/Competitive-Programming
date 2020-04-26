@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -13,7 +14,6 @@ using namespace std;
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
-/*
 void solve() {
 	set<int> o;
 	unordered_map<int, int> a;
@@ -32,7 +32,7 @@ void solve() {
 		}
 	}
 
-	for (int i : o) {
+	for (int i : o) 
 		cout << i << " ";
 	}
 	cout << endl;

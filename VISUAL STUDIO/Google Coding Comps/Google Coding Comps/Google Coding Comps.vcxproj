@@ -142,6 +142,7 @@
     <ClCompile Include="BASE__.cpp" />
     <ClCompile Include="bikepeak.cpp" />
     <ClCompile Include="busroutes.cpp" />
+    <ClCompile Include="foregonesolution.cpp" />
     <ClCompile Include="lastword.cpp" />
     <ClCompile Include="plates.cpp" />
     <ClCompile Include="rankandfile.cpp" />

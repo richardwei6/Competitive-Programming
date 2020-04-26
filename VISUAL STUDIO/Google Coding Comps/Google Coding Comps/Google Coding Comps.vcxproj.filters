@@ -63,5 +63,8 @@
     <ClCompile Include="rankandfile.cpp">
       <Filter>Source Files\Practice\Code Jam</Filter>
     </ClCompile>
+    <ClCompile Include="foregonesolution.cpp">
+      <Filter>Source Files\Practice\Code Jam</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

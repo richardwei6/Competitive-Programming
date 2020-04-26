@@ -1,11 +1,4 @@
-﻿  BASE__.cpp
-  lastword.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\lastword.cpp(12,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\lastword.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
-  rankandfile.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\rankandfile.cpp(13,9): warning C4068: unknown pragma
-  Generating Code...
-  LINK : D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\Debug\Google Coding Comps.exe not found or not built by the last incremental link; performing full link
-rankandfile.obj : error LNK2005: "void __cdecl solve(void)" (?solve@@YAXXZ) already defined in lastword.obj
-rankandfile.obj : error LNK2005: _main already defined in lastword.obj
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\Debug\Google Coding Comps.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  foregonesolution.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\foregonesolution.cpp(23,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\foregonesolution.cpp(46,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Google Coding Comps.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\Debug\Google Coding Comps.exe

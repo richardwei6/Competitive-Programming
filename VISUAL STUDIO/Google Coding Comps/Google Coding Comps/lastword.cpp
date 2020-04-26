@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -12,7 +13,6 @@ using namespace std;
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
-/*
 void solve() {
 	string s, o;
 	cin >> s;
@@ -39,4 +39,4 @@ int main() {
 	}
 	return 0;
 }
-*/
+/**/
