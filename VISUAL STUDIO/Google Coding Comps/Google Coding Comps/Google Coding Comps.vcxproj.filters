@@ -66,5 +66,11 @@
     <ClCompile Include="foregonesolution.cpp">
       <Filter>Source Files\Practice\Code Jam</Filter>
     </ClCompile>
+    <ClCompile Include="youcangoyourownway.cpp">
+      <Filter>Source Files\Practice\Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptopangrams.cpp">
+      <Filter>Source Files\Practice\Code Jam</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

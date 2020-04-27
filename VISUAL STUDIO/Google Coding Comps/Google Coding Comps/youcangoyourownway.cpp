@@ -1,6 +1,4 @@
-
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -25,47 +23,21 @@ using namespace std;
 #define V vector
 
 void solve() {
-	string t;
-	cin >> t;
-	vector<int> a;
-	for (auto i : t) {
-		a.push_back(i - '0');
-	}
-	vector<int> b(a.size(), 0);
-	for (ll i = 0; i < a.size(); i++) {
-		if (a[i] == 4) {
-			a[i] = 2;
-			b[i] += 2;
+	int n;
+	cin >> n;
+	string s, o;
+	cin >> s;
+	for (auto i : s) {
+		if (i == 'E') {
+			o += 'S';
+		}
+		else {
+			o += 'E';
 		}
 	}
-	for (ll i = 0; i < b.size(); i++) {
-		if (b[i] == 4) {
-			b[i] = 2;
-			a[i] += 2;
-		}
-	}
-
-	bool p = 0;
-	for (int i : a) {
-		if (i != 0) {
-			p = 1;
-		}
-		if (p) {
-			cout << i;
-		}
-	}
-	cout << " ";
-	p = 0;
-	for (int i : b) {
-		if (i != 0) {
-			p = 1;
-		}
-		if (p) {
-			cout << i;
-		}
-	}
-	cout << endl;
+	cout << o << endl;
 }
+
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);

@@ -22,8 +22,13 @@
     <ClCompile Include="AandBCompErrors.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="FlippingGame.cpp" />
+    <ClCompile Include="LLyaandQueries.cpp" />
     <ClCompile Include="NastyaAndDoor.cpp" />
+    <ClCompile Include="NastyaandScoreboard.cpp" />
+    <ClCompile Include="TheatreSquare.cpp" />
     <ClCompile Include="TwoButtons.cpp" />
+    <ClCompile Include="Watermelon.cpp" />
+    <ClCompile Include="WrongSubtraction.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -1,6 +1,4 @@
 /*
-
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -25,21 +23,17 @@ using namespace std;
 #define V vector
 
 void solve() {
-
+	long double n, m, a;
+	cin >> n >> m >> a;
+	cout << long long (ceil(n/a) * ceil(m/a)) << endl;
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t;
-	cin >> t;
-	for (int i = 1; i <= t; i++) {
-		cout << "Case #" << i << ": ";
-		solve();
-	}
+	solve();
 	return 0;
 }
 
 
 /**/
-

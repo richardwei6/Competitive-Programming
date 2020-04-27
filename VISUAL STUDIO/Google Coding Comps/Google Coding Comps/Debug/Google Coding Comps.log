@@ -1,4 +1,3 @@
-﻿  foregonesolution.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\foregonesolution.cpp(23,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\foregonesolution.cpp(46,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  cryptopangrams.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\cryptopangrams.cpp(20,9): warning C4068: unknown pragma
   Google Coding Comps.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\Debug\Google Coding Comps.exe
