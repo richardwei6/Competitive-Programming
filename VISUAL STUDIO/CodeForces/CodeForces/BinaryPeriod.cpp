@@ -1,6 +1,5 @@
+
 /*
-
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -26,13 +25,22 @@ using namespace std;
 #define V vector
 
 void solve() {
-	
+	string s, o;
+	cin >> s;
+	ll t = s.size();
+	for (; t--;) {
+		o += "10";
+	}
+	cout << (s.size() > 2?o:s) << endl;
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	solve();
+	int t;
+	cin >> t;
+	for (;t--;)
+		solve();
 	return 0;
 }
 

@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -14,6 +15,7 @@
 #include <stack>
 #include <iterator>
 #include <queue>
+#include <numeric>
 
 using namespace std;
 
@@ -22,13 +24,18 @@ using namespace std;
 #define V vector
 
 void solve() {
-// dp - the max digit from 
+	ll n;
+	cin >> n;
+	cout << n << endl;
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	solve();
+	int t;
+	cin >> t;
+	for (;t--;)
+		solve();
 	return 0;
 }
 

@@ -1,6 +1,4 @@
 /*
-
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -26,7 +24,29 @@ using namespace std;
 #define V vector
 
 void solve() {
-	
+	int n;
+	cin >> n;
+	vector<ll> a;
+	while (n--) {
+		int m;
+		cin >> m;
+		a.push_back(m);
+	}
+
+	int dp[100001]{1};
+	for (int i = 1; i < a.size(); i++) {
+		if (a[i] >= a[i - 1]) {
+			dp[i] = dp[i - 1] + 1;
+		}
+		else {
+			dp[i] = 1;
+		}
+	}
+	int m = 0;
+	for (int i = 0; i < a.size(); i++) {
+		m = max(m, dp[i]);
+	}
+	cout << m << endl;
 }
 
 int main() {
