@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -25,7 +24,21 @@ using namespace std;
 #define V vector
 
 void solve() {
-	
+	string s, o;
+	cin >> s;
+	int a[4]{};
+	for (auto i : s) {
+		if (isdigit(i)) {
+			a[i - '0']++;
+		}
+	}
+	for (int i = 1; i < 4; i++) {
+		for (; a[i]--;) {
+			o += to_string(i)+"+";
+		}
+	}
+	o.erase(begin(o)+o.size()-1);
+	cout << o << endl;
 }
 
 int main() {

@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -24,8 +23,30 @@ using namespace std;
 #define ll long long
 #define V vector
 
+bool caps(string s) {
+	for (int i = 1; i < s.size(); i++) {
+		if (islower(s[i])) {
+			return 0;
+		}
+	}
+	return 1;
+}
+
+
 void solve() {
-	
+	string s;
+	cin >> s;
+	if (caps(s)) {
+		for (int i = 0; i < s.size(); i++) {
+			if (i == 0 && islower(s[i])) {
+				s[i] = toupper(s[i]);
+			}
+			else {
+				s[i] = tolower(s[i]);
+			}
+		}
+	}
+	cout << s << endl;
 }
 
 int main() {

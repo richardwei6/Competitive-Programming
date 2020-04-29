@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -24,8 +23,23 @@ using namespace std;
 #define ll long long
 #define V vector
 
+unordered_map<string,int> a;// string is base string int is number next
+
 void solve() {
-	
+	int n;
+	cin >> n;
+	while (n--) {
+		string s;
+		cin >> s;
+		if (a.find(s)==end(a)) {
+			a[s]=1;
+			cout << "OK" << endl;
+		}
+		else {
+			cout << s + to_string(a[s]) << endl;
+			a[s]++;
+		}
+	}
 }
 
 int main() {

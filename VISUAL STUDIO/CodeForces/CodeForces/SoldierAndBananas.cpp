@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -25,7 +24,15 @@ using namespace std;
 #define V vector
 
 void solve() {
-	
+	int k, n, w;
+	cin >> k >> n >> w;
+	ll o  = n - (w * (k + w*k )/2);
+	if (o >= 0) {
+		cout << 0 << endl;
+	}
+	else {
+		cout << -o << endl;
+	}
 }
 
 int main() {

@@ -23,17 +23,24 @@
     <ClCompile Include="AgainTwentyFive.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="BinaryPeriod.cpp" />
+    <ClCompile Include="cApslOck.cpp" />
     <ClCompile Include="CutRibbon.cpp" />
     <ClCompile Include="FillingDiamonds.cpp" />
     <ClCompile Include="FlippingGame.cpp" />
+    <ClCompile Include="HelpfulMaths.cpp" />
+    <ClCompile Include="HitTheLottery.cpp" />
     <ClCompile Include="KefaAndFirstSteps.cpp" />
     <ClCompile Include="LLyaandQueries.cpp" />
+    <ClCompile Include="LuckyDivision.cpp" />
     <ClCompile Include="NastyaAndDoor.cpp" />
+    <ClCompile Include="RegistrationSystem.cpp" />
+    <ClCompile Include="SoldierAndBananas.cpp" />
     <ClCompile Include="StringTask.cpp" />
     <ClCompile Include="TheatreSquare.cpp" />
     <ClCompile Include="TwoButtons.cpp" />
     <ClCompile Include="Watermelon.cpp" />
     <ClCompile Include="WayTooLongWords.cpp" />
+    <ClCompile Include="Winner.cpp" />
     <ClCompile Include="WrongSubtraction.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
