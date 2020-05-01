@@ -1,4 +1,5 @@
-/**
+
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -24,29 +25,38 @@ using namespace std;
 #define V vector
 
 void solve() {
-	ll n, d;
-	cin >> n >> d;
-	if (d <= n) {
-		cout << "YES" << endl;
+	int n, m;
+	cin >> n >> m;
+	int t[101]{};
+	vector<vector<int>> p;
+	vector<int> o;
+	for (; n--;) {
+		int a, b;
+		cin >> a >> b;
+		p.push_back({ a,b });
 	}
-	else {
-		for (ll x = 1; x < n; x++) {
-			if (x+ceil((double)d/(x+1))<=n) {
-				cout << "YES" << endl;
-				return;
-			}
+	for (auto i : p) {
+		for (int a = i[0]; a <= i[1]; a++) {
+			t[a] = 1;
 		}
-		cout << "NO" << endl;
 	}
+	for (int i = 1; i <= m; i++) {
+		if (t[i] == 0) {
+			o.push_back(i);
+		}
+	}
+	cout << o.size() << endl;
+	for (int i : o) {
+		cout << i << " ";
+	}
+	cout << endl;
+
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t;
-	cin >> t;
-	for (;t--;)
-		solve();
+	solve();
 	return 0;
 }
 

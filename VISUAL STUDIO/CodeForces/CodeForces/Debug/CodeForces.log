@@ -1,4 +1,5 @@
-﻿  CowAndHaybales.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\CowAndHaybales.cpp(22,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\CowAndHaybales.cpp(35,20): warning C4018: '<': signed/unsigned mismatch
+﻿  PhoenixAndBalance.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\PhoenixAndBalance.cpp(22,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\PhoenixAndBalance.cpp(29,7): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\PhoenixAndBalance.cpp(30,12): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
   CodeForces.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Debug\CodeForces.exe

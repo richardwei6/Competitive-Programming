@@ -1,4 +1,5 @@
-/**
+/*
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -24,29 +25,35 @@ using namespace std;
 #define V vector
 
 void solve() {
-	ll n, d;
-	cin >> n >> d;
-	if (d <= n) {
-		cout << "YES" << endl;
+	int n, k;
+	cin >> n >> k;
+	vector<int> a;
+	for (int i = 0; i < n; i++) {
+		int j;
+		cin >> j;
+		a.push_back(j);
 	}
-	else {
-		for (ll x = 1; x < n; x++) {
-			if (x+ceil((double)d/(x+1))<=n) {
-				cout << "YES" << endl;
-				return;
-			}
+	// sliding window technique
+	int s = 0;
+	for (int i = 0; i < k; i++) {
+		s += a[i];
+	}// inital sum
+	int mn = s, p = 0; // min sum and pos
+	for (int i = 1; i+k-1 < a.size(); i++) { // new int - starting pos
+		s -= a[i-1]; // remove first element
+		s += a[i+k-1]; // add new element
+		if (s < mn) {
+			mn = s;
+			p = i;
 		}
-		cout << "NO" << endl;
 	}
+	cout << p +1 << endl;
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t;
-	cin >> t;
-	for (;t--;)
-		solve();
+	solve();
 	return 0;
 }
 

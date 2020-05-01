@@ -1,4 +1,4 @@
-/**
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -24,20 +24,18 @@ using namespace std;
 #define V vector
 
 void solve() {
-	ll n, d;
-	cin >> n >> d;
-	if (d <= n) {
-		cout << "YES" << endl;
-	}
-	else {
-		for (ll x = 1; x < n; x++) {
-			if (x+ceil((double)d/(x+1))<=n) {
-				cout << "YES" << endl;
-				return;
-			}
+	int n;
+	cin >> n;
+	ll s = pow(2, n);
+	for (ll i = pow(2, n-1), c = 2; i >= 2; i /= 2, c++) {
+		if (c <= (n / 2) +1) {
+			s -= i;
 		}
-		cout << "NO" << endl;
+		else {
+			s += i;
+		}
 	}
+	cout << s << endl;
 }
 
 int main() {

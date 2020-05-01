@@ -23,13 +23,16 @@
     <ClCompile Include="AgainTwentyFive.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="BinaryPeriod.cpp" />
+    <ClCompile Include="Boredom.cpp" />
     <ClCompile Include="CandiesAndTwoSisters.cpp" />
     <ClCompile Include="cApslOck.cpp" />
     <ClCompile Include="CowAndHaybales.cpp" />
     <ClCompile Include="CutRibbon.cpp" />
     <ClCompile Include="Deadline.cpp" />
+    <ClCompile Include="Fence.cpp" />
     <ClCompile Include="FillingDiamonds.cpp" />
     <ClCompile Include="FlippingGame.cpp" />
+    <ClCompile Include="GivenLengthAndSumOfDigits.cpp" />
     <ClCompile Include="HelpfulMaths.cpp" />
     <ClCompile Include="HitTheLottery.cpp" />
     <ClCompile Include="HQ9+.cpp" />
@@ -39,6 +42,8 @@
     <ClCompile Include="LLyaandQueries.cpp" />
     <ClCompile Include="LuckyDivision.cpp" />
     <ClCompile Include="NastyaAndDoor.cpp" />
+    <ClCompile Include="PhoenixAndBalance.cpp" />
+    <ClCompile Include="PointsInSegments.cpp" />
     <ClCompile Include="QuasiBinary.cpp" />
     <ClCompile Include="RegistrationSystem.cpp" />
     <ClCompile Include="SashaAndSticks.cpp" />
