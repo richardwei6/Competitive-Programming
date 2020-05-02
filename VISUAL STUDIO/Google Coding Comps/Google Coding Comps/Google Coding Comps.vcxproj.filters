@@ -36,9 +36,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BASE__.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="wanderingrobot.cpp">
       <Filter>Source Files\Kick Start\Round B</Filter>
     </ClCompile>
@@ -71,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="cryptopangrams.cpp">
       <Filter>Source Files\Practice\Code Jam</Filter>
+    </ClCompile>
+    <ClCompile Include="BASE__.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -57,9 +57,6 @@
     <ClCompile Include="StringTask.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryPeriod.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FillingDiamonds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -130,6 +127,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PhoenixAndBalance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PheonixAndBeauty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NightAtTheMuseum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeProductEqualOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

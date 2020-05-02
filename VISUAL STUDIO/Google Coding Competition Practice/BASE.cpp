@@ -1,5 +1,5 @@
-
 /*
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -16,7 +16,6 @@
 #include <stack>
 #include <iterator>
 #include <queue>
-#include <numeric>
 
 using namespace std;
 
@@ -25,13 +24,7 @@ using namespace std;
 #define V vector
 
 void solve() {
-	string s, o;
-	cin >> s;
-	ll t = s.size();
-	for (; t--;) {
-		o += "10";
-	}
-	cout << (s.size() > 2?o:s) << endl;
+
 }
 
 int main() {
@@ -39,8 +32,10 @@ int main() {
 	cin.tie(0);
 	int t;
 	cin >> t;
-	for (;t--;)
+	for (int i = 1; i <= t; i++) {
+		cout << "Case #" << i << ": ";
 		solve();
+	}
 	return 0;
 }
 
