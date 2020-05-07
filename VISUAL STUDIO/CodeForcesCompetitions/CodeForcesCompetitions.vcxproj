@@ -87,6 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -113,6 +114,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,10 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\CodeForces\CodeForces\a.cpp" />
-    <ClCompile Include="..\CodeForces\CodeForces\b.cpp" />
     <ClCompile Include="..\CodeForces\CodeForces\BASE.cpp" />
-    <ClCompile Include="c.cpp" />
+    <ClCompile Include="A.cpp" />
+    <ClCompile Include="B.cpp" />
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="D.cpp" />
+    <ClCompile Include="e.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

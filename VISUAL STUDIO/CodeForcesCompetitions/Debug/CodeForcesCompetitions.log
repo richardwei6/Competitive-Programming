@@ -1,7 +1,5 @@
-﻿  c.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(22,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(29,17): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(33,24): error C2148: total size of array must not exceed 0x7fffffff bytes
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(34,24): error C2148: total size of array must not exceed 0x7fffffff bytes
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(39,10): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\c.cpp(45,10): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+﻿  B.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\B.cpp(22,9): warning C4068: unknown pragma
+  C.cpp
+  Generating Code...
+  CodeForcesCompetitions.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\Debug\CodeForcesCompetitions.exe

@@ -1,7 +1,7 @@
-﻿  BinaryPeriod.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\BinaryPeriod.cpp(23,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\BinaryPeriod.cpp(40,21): warning C4018: '<': signed/unsigned mismatch
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\BinaryPeriod.cpp(45,21): warning C4018: '<': signed/unsigned mismatch
-  MakeProductEqualOne.cpp
+﻿  BASE.cpp
+  MikeAndStrings.cpp
+  Pangram.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Pangram.cpp(23,9): warning C4068: unknown pragma
+  Reposts.cpp
   Generating Code...
   CodeForces.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Debug\CodeForces.exe

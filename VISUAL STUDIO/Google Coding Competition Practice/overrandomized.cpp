@@ -1,4 +1,4 @@
-
+/*
 
 #include <iostream>
 #include <algorithm>
@@ -29,6 +29,7 @@ bool sortByVal(pair<char,ll> a, pair<char,ll> b)
 } 
 
 void solve() {
+//	int * dp = (int*)malloc(1000000000);
 	unordered_map<char, ll> a;
 	ll u;
 	cin >> u;

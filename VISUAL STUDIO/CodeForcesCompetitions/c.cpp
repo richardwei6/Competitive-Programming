@@ -1,4 +1,4 @@
- 
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -10,34 +10,35 @@
 #include <functional>
 #include <cmath>
 #include <limits>
+#include <list>
 #include <memory>
 #include <stack>
 #include <iterator>
 #include <queue>
+#include <numeric>
 
 using namespace std;
 
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
+#define pp pair<ll,ll>
+#define pi 3.1416
+#define inf 1000000000000
+#define max2(a,b) ((a<b)?b:a)
+#define max3(a,b,c) max2(max2(a,b),c)
+#define min2(a,b) ((a>b)?b:a)
+#define min3(a,b,c) min2(min2(a,b),c)
 
 void solve() {
-	ll a, b, q;
-	cin >> a >> b >> q;
-	vector<ll> ans(q, 0);
-	for (ll i = 0; i < q; i++) {
-		ll l, r, n = 0;
-		cin >> l >> r;
-		for (ll x = l; x <= r; x++) { // ans - diff of l-r mod lcm(a,b)
-			if ( ((x % a) % b) != ((x % b) % a) ){
-				ans[i]++;
-			}	
-		}
+	int n;
+	cin >> n;
+	int a[200000]{};
+	for (int i = 0; i < n; i++) {
+		cin >> a[i];
 	}
-	for (ll i : ans) {
-		cout << i << " ";
-	}
-	cout << endl;
+
+		
 }
 
 int main() {
@@ -45,9 +46,8 @@ int main() {
 	cin.tie(0);
 	int t;
 	cin >> t;
-	for (; t--;) {
-		solve();
-	}
+	while(t--)
+	solve();
 	return 0;
 }
 
