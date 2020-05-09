@@ -1,7 +1,4 @@
-﻿  BASE.cpp
-  MikeAndStrings.cpp
-  Pangram.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Pangram.cpp(23,9): warning C4068: unknown pragma
-  Reposts.cpp
-  Generating Code...
+﻿  KeanuReeves.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\KeanuReeves.cpp(23,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\KeanuReeves.cpp(51,14): warning C4018: '<': signed/unsigned mismatch
   CodeForces.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Debug\CodeForces.exe

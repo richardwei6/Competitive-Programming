@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="A+B.cpp" />
     <ClCompile Include="AandBCompErrors.cpp" />
     <ClCompile Include="ABlendOfSpringTime.cpp" />
     <ClCompile Include="AgainTwentyFive.cpp" />
@@ -32,6 +33,7 @@
     <ClCompile Include="CandiesAndTwoSisters.cpp" />
     <ClCompile Include="cApslOck.cpp" />
     <ClCompile Include="ChatRoom.cpp" />
+    <ClCompile Include="CopyCopyCopyCopyCopy.cpp" />
     <ClCompile Include="CowAndHaybales.cpp" />
     <ClCompile Include="CutRibbon.cpp" />
     <ClCompile Include="Deadline.cpp" />
@@ -49,17 +51,23 @@
     <ClCompile Include="InterestingDrink.cpp" />
     <ClCompile Include="IsItRated.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
+    <ClCompile Include="I_Love_username.cpp" />
+    <ClCompile Include="Joysticks.cpp" />
+    <ClCompile Include="KeanuReeves.cpp" />
     <ClCompile Include="KefaAndFirstSteps.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="KeyboardLayouts.cpp" />
     <ClCompile Include="KindAnton.cpp" />
     <ClCompile Include="LLyaandQueries.cpp" />
     <ClCompile Include="LuckyDivision.cpp" />
+    <ClCompile Include="MagnetMishap.cpp" />
+    <ClCompile Include="MahmoundandATriangle.cpp" />
     <ClCompile Include="MakeProductEqualOne.cpp" />
     <ClCompile Include="MikeAndStrings.cpp" />
     <ClCompile Include="NastyaAndDoor.cpp" />
     <ClCompile Include="NightAtTheMuseum.cpp" />
     <ClCompile Include="Pangram.cpp" />
+    <ClCompile Include="Password.cpp" />
     <ClCompile Include="PetyaAndStrings.cpp" />
     <ClCompile Include="PheonixAndBeauty.cpp" />
     <ClCompile Include="PhoenixAndBalance.cpp" />
@@ -69,9 +77,12 @@
     <ClCompile Include="Reposts.cpp" />
     <ClCompile Include="SashaAndSticks.cpp" />
     <ClCompile Include="SerejaAndSuffixes.cpp" />
+    <ClCompile Include="Skier.cpp" />
     <ClCompile Include="SocialNetwork.cpp" />
     <ClCompile Include="SoldierAndBananas.cpp" />
+    <ClCompile Include="Square.cpp" />
     <ClCompile Include="StringTask.cpp" />
+    <ClCompile Include="TelephoneNumber.cpp" />
     <ClCompile Include="TheatreSquare.cpp" />
     <ClCompile Include="Translation.cpp" />
     <ClCompile Include="TwoButtons.cpp" />

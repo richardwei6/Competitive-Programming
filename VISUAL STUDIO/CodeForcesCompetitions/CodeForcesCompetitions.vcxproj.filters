@@ -13,28 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Codeforces Round 639">
-      <UniqueIdentifier>{dd5c0ef0-53d2-495a-a8b6-d00a72b78094}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\CodeForces\CodeForces\BASE.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="A.cpp">
-      <Filter>Source Files\Codeforces Round 639</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="B.cpp">
-      <Filter>Source Files\Codeforces Round 639</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C.cpp">
-      <Filter>Source Files\Codeforces Round 639</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D.cpp">
-      <Filter>Source Files\Codeforces Round 639</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="e.cpp">
-      <Filter>Source Files\Codeforces Round 639</Filter>
+    <ClCompile Include="E.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

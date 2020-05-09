@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -30,15 +29,27 @@ using namespace std;
 #define max3(a,b,c) max2(max2(a,b),c)
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
+#define what_is(x) cerr << #x << " is " << x << endl;
+#define PS(x) emplace_back(x)
 
 void solve() {
-	
+	int n;
+	cin >> n;
+	vector<int> a;
+	while (n--) {
+		int j;
+		cin >> j;
+		a.PS(j);
+	}
+
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	solve();
+	int t; cin >> t;
+	while (t--)
+		solve();
 	return 0;
 }
 

@@ -29,26 +29,45 @@ using namespace std;
 #define max3(a,b,c) max2(max2(a,b),c)
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
+#define what_is(x) cerr << #x << " is " << x << endl;
+#define PS(x) emplace_back(x)
 
 void solve() {
-	ll n, c =0;
-	cin >> n;
-	while (n >= 2) {
-		int i = 1;
-		for (; n >= i * (3 * i + 1) / 2; i++);
-		n -= (i-1) * (3 * (i-1) + 1) / 2;
-		c++;
+	int n, k;
+	cin >> n >> k;
+	if (n % k == 0) { 
+		cout << "YES" << endl;
+		int t = k;
+		for (; t--;) {
+			cout << n / k;
+			if (t > 0) {
+				cout << " ";
+			}
+		}
+		cout << endl;
 	}
-	cout << c << endl;
-
+	else {
+		for (int i = 1; i<=n; i++) {
+		//	cout << i << endl;
+			if (i % 2 == (n - (i * (k - 1))) % 2 && (n-(i*(k-1)))> 0) {
+				cout << "YES" << endl; 
+				cout << n - (i * (k - 1)) << " ";
+				for (int j = k - 1; j--;) {
+					cout << i << " ";
+				}
+				cout << endl;
+				return;
+			}
+		}
+		cout << "NO" << endl;
+	}
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t;
-	cin >> t;
-	while(t--)
+	int t; cin >> t;
+	while (t--)
 		solve();
 	return 0;
 }
