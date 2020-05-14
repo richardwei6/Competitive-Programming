@@ -1,4 +1,5 @@
 /*
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -16,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -30,28 +32,10 @@ using namespace std;
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
-#define PS(x) emplace_back(x)
-
-  
-int countDivisibles(int A, int B, int M) 
-{ 
-    if (A % M == 0) 
-        return (B / M) - (A / M) + 1;
-	return (B / M) - (A / M); 
-} 
-  
+#define PS(x) push_back(x)
 
 void solve() {
-	int n, k, c =0;
-	cin >> n >> k;
-	// number of int smaller than k % n == 0 + k	
-	//cout << countDivisibles(1, k, n) << endl;
-	int t = countDivisibles(1, k, n) + k;
-	while (countDivisibles(1, t, n) > t-k) {
-	//	cout << t << endl;
-		t = countDivisibles(1, t, n) + k;
-	}
-	cout << t << endl;
+	
 }
 
 int main() {

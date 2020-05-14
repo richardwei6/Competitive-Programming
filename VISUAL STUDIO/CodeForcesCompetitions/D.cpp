@@ -17,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -31,42 +32,10 @@ using namespace std;
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
-#define PS(x) emplace_back(x)
+#define PS(x) push_back(x)
 
 void solve() {
-	int n;
-	cin >> n;
-	deque<int> a;
-	for (; n--;) {
-		int j;
-		cin >> j;
-		a.PS(j);
-	}
-	int c = a.front(), x = c, y= 0;
-	a.pop_front();
-	int t = 1;
-	while (a.size()) {
-		if (t % 2 == 0) { // alice
-			int s = 0;
-			while (s <= c && a.size()) {
-				s += a.front();
-				a.pop_front();
-			}
-			c = s;
-			x += s;
-		}
-		else { // bob
-			int s = 0;
-			while (s <= c  && a.size()) {
-				s += a.back();
-				a.pop_back();
-			}
-			c = s;
-			y += s;
-		}
-		t++;
-	}
-	cout << t << " " << x << " " << y << endl;
+	
 }
 
 int main() {

@@ -1,4 +1,5 @@
-/*
+/**
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -16,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -30,37 +32,10 @@ using namespace std;
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
-#define PS(x) emplace_back(x)
+#define PS(x) push_back(x)
 
 void solve() {
-	int n, k;
-	cin >> n >> k;
-	if (n % k == 0) { 
-		cout << "YES" << endl;
-		int t = k;
-		for (; t--;) {
-			cout << n / k;
-			if (t > 0) {
-				cout << " ";
-			}
-		}
-		cout << endl;
-	}
-	else {
-		for (int i = 1; i<=n; i++) {
-		//	cout << i << endl;
-			if (i % 2 == (n - (i * (k - 1))) % 2 && (n-(i*(k-1)))> 0) {
-				cout << "YES" << endl; 
-				cout << n - (i * (k - 1)) << " ";
-				for (int j = k - 1; j--;) {
-					cout << i << " ";
-				}
-				cout << endl;
-				return;
-			}
-		}
-		cout << "NO" << endl;
-	}
+	
 }
 
 int main() {

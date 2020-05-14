@@ -1,4 +1,5 @@
 /*
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -16,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -30,18 +32,10 @@ using namespace std;
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
-#define PS(x) emplace_back(x)
+#define PS(x) push_back(x)
 
 void solve() {
-	int n;
-	cin >> n;
-	vector<int> a;
-	while (n--) {
-		int j;
-		cin >> j;
-		a.PS(j);
-	}
-
+	
 }
 
 int main() {

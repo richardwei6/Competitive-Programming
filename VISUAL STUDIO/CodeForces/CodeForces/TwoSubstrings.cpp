@@ -1,5 +1,5 @@
 
-
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -17,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -34,39 +35,17 @@ using namespace std;
 #define PS(x) emplace_back(x)
 
 void solve() {
-	int n;
-	cin >> n;
-	vector<int> a;
-	while (  n-- > 1 ) {
-		a.PS(n);
-	}
-	if (a.size() < 3) {
-		cout << -1 << endl;
-		return;
-	}
-	for (int i = 0; i+1 < a.size(); i++) {
-		if (i % 3 != 0) {
-			swap(a[i], a[i + 1]);
-			i = i + 2;
-		}
-	}
-	for (int i = 1; i+2< a.size(); i++) {
-		if (abs(a[i] - a[i - 1]) == 1) {
-			swap(a[i+2], a[i +1]);
-		}
-	}
-
-	for (int i : a) {
-		cout << i << " ";
-	}
-	cout << endl;
+	string s;
+	cin >> s;
+	size_t t = s.find("AB"), z = s.find("BA");
+	cout << ((t != string::npos && s.find("BA", t+2)!=string::npos || (z != string::npos && s.find("AB", z+2)!=string::npos)) ? "YES" : "NO") << endl;
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t; cin >> t;
-	while (t--)
+//	int t; cin >> t;
+///	while (t--)
 		solve();
 	return 0;
 }
