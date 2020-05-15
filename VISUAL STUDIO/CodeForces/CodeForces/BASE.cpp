@@ -33,6 +33,7 @@ using namespace std;
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
 #define PS(x) push_back(x)
+#define IT(x) begin(x),end(x)
 
 void solve() {
 	

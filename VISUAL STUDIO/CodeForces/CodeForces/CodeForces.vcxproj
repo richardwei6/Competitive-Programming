@@ -30,12 +30,14 @@
     <ClCompile Include="AsSimpleasOneandTwo.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="BearAndThreeMusketeers.cpp" />
+    <ClCompile Include="BigSegment.cpp" />
     <ClCompile Include="BoardMoves.cpp" />
     <ClCompile Include="Boredom.cpp" />
     <ClCompile Include="BoyOrGirl.cpp" />
     <ClCompile Include="CandiesAndTwoSisters.cpp" />
     <ClCompile Include="cApslOck.cpp" />
     <ClCompile Include="ChatRoom.cpp" />
+    <ClCompile Include="ConstructingArray.cpp" />
     <ClCompile Include="CopyCopyCopyCopyCopy.cpp" />
     <ClCompile Include="CounterAttack.cpp" />
     <ClCompile Include="CowAndHaybales.cpp" />
@@ -60,9 +62,11 @@
     <ClCompile Include="InsomniaCure.cpp" />
     <ClCompile Include="InterestingDrink.cpp" />
     <ClCompile Include="IsItRated.cpp" />
+    <ClCompile Include="IsItRated2.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="I_Love_username.cpp" />
     <ClCompile Include="Joysticks.cpp" />
+    <ClCompile Include="K-periodicGarland.cpp" />
     <ClCompile Include="KeanuReeves.cpp" />
     <ClCompile Include="KefaAndFirstSteps.cpp" />
     <ClCompile Include="Keyboard.cpp" />
@@ -116,6 +120,7 @@
     <ClCompile Include="TwoButtons.cpp" />
     <ClCompile Include="TwoSubstrings.cpp" />
     <ClCompile Include="Vacations.cpp" />
+    <ClCompile Include="VanyaAndLanterns.cpp" />
     <ClCompile Include="Vessels.cpp" />
     <ClCompile Include="Vessels2.cpp" />
     <ClCompile Include="Watermelon.cpp" />
