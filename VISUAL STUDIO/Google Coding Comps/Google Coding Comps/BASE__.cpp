@@ -1,6 +1,5 @@
 /*
 
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -18,6 +17,7 @@
 #include <iterator>
 #include <queue>
 #include <numeric>
+#include <bitset>
 
 using namespace std;
 
@@ -33,6 +33,8 @@ using namespace std;
 #define min3(a,b,c) min2(min2(a,b),c)
 #define what_is(x) cerr << #x << " is " << x << endl;
 #define PS(x) push_back(x)
+#define IT(x) begin(x),end(x)
+#define mod 1000000007
 
 void solve() {
 	

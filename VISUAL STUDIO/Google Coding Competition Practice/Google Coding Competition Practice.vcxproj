@@ -139,8 +139,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BASE.cpp" />
+    <ClCompile Include="Countdown.cpp" />
     <ClCompile Include="overexcitedfan.cpp" />
     <ClCompile Include="overrandomized.cpp" />
+    <ClCompile Include="PerfectSubarray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,3 +1,4 @@
-﻿  overrandomized.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Competition Practice\overrandomized.cpp(22,9): warning C4068: unknown pragma
+﻿  PerfectSubarray.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Competition Practice\PerfectSubarray.cpp(24,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Competition Practice\PerfectSubarray.cpp(45,11): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
   Google Coding Competition Practice.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Competition Practice\Debug\Google Coding Competition Practice.exe

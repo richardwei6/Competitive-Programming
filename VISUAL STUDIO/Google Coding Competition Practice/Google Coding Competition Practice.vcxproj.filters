@@ -24,5 +24,11 @@
     <ClCompile Include="overrandomized.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Countdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectSubarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
