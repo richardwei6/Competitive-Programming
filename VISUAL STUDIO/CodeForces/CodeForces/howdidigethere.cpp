@@ -1,3 +1,4 @@
+/*
 
 #include <iostream>
 #include <algorithm>
@@ -18,8 +19,9 @@
 #include <numeric>
 #include <bitset>
 #include <iomanip>
+#include <sstream>
 using namespace std;
-
+ 
 #pragma GCC optimize("Ofast")
 #define ll long long
 #define V vector
@@ -33,37 +35,53 @@ using namespace std;
 #define what_is(x) cerr << #x << " is " << x << endl;
 #define PS push_back
 #define IT(x) begin(x),end(x)
-#define mod 1000000007
+const int mod = 1e9 + 7;
 
 
-ll c = 0;
-
-void R(V<int> a) {
-	int f = 0;
-	for (int i = 0; i < a.size(); i++) {
-		if (a[i] != 0) {
-			V<int> b = a;
-			b[i]--;
-			R(b);
-			f = 1;
-		}
+ll bigPow(ll x, ll n) {
+	if (n < 0) {
+		return bigPow(1 / x, -n)%mod;
 	}
-	if (!f) {
-		c = (c+1)%mod;
+	else if (n == 0) {
+		return 1;
+	}
+	else if (n == 1) {
+		return x;
+	}
+	else if (n % 2 == 0) {
+		return bigPow((x * x) % mod, n / 2) % mod;
+	}
+	else if (n % 2 != 0) {
+		return x * (bigPow((x * x) % mod, (n - 1) / 2) % mod ) % mod;
 	}
 }
 
- // 1 2 = a b b - find num of permutations - total! / r1! r2! ... where r is # of repeated permutations ie a b b = 3! / 2! where 2! is from the repeated b's
-void solve() {
+ll fact(ll n) {
+	ll f = 1;
+	for (ll i = 1; i <= n; i += 1) {
+		f = (f * i)%mod;
+	}
+	return f%mod;
+}
+
+void solve(){
 	int n;
 	cin >> n;
-	V<int> a(n);
-	for (int& i : a) {
-		cin >> i;
+	int a[1000]{}, s = 0;
+	for (int i = 0; i < n; i++) {
+		cin >> a[i];
+		s += a[i];
 	}
-	R(a);
-	cout << c << endl;
+	ll ans = fact(s);
+	for (int i = 0; i < n; i++) {
+		if (a[i] > 1) {
+			ans = (ans * bigPow(fact(a[i]), mod-2)) % mod;
+		}
+	}
+	cout << ans << endl;
+
 }
+
 
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -73,6 +91,6 @@ int main() {
 		solve();
 	return 0;
 }
-
-
+ 
+ 
 /**/

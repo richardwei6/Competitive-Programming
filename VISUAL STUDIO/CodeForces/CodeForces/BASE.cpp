@@ -1,5 +1,6 @@
 /*
 
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -34,7 +35,14 @@ using namespace std;
 #define what_is(x) cerr << #x << " is " << x << endl;
 #define PS push_back
 #define IT(x) begin(x),end(x)
-#define mod 1000000007
+const int mod = 1e9 + 7;
+
+void D(V<int> a) {
+	for (int i : a)
+		cout << i << " ";
+	cout << endl;
+}
+
 
 void solve() {
 	

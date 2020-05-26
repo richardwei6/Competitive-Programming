@@ -1,4 +1,4 @@
-/*
+/* ===
 
 #include <iostream>
 #include <algorithm>
@@ -36,15 +36,55 @@ using namespace std;
 #define IT(x) begin(x),end(x)
 #define mod 1000000007
 
+bool isPrime(int n) {
+	if (n <= 1 || n % 2 ==0 || n % 3 == 0) {
+		return 0;
+	}
+	if (n <= 3) {
+		return 1;
+	}
+	for (int i = 5; i * i <= n; i += 6) {
+		if (n % i == 0 || n % (i + 2) == 0) {
+			return 0;
+		}
+	}
+	return 1;
+}
+
+
+int requestSum(int n) {
+	cout << n << endl;
+	cout.flush();
+	int s;
+	cin >> s;
+	return s;
+}
+
 void solve() {
-	
+	int n;
+	cin >> n;
+	if (isPrime(n)) {
+		if (requestSum(n) == n + 1) {
+			cout << "-1 evil" << endl;
+		}
+		else {
+			cout << "-1 odious" << endl;
+		}
+	}
+	else {
+		int big = requestSum(720720);
+		V<int> evil;
+		while (1) {
+
+		}
+	}
 }
 
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t; cin >> t;
-	while (t--)
+//	int t; cin >> t;
+//	while (t--)
 		solve();
 	return 0;
 }
