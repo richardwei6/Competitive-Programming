@@ -1,6 +1,5 @@
 /*
 
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -20,10 +19,13 @@
 #include <numeric>
 #include <bitset>
 #include <iomanip>
+#include <cstring>
 using namespace std;
 
 #pragma GCC optimize("Ofast")
 #define ll long long
+#define ld long double
+#define ull unsigned long long
 #define V vector
 #define pp pair<ll,ll>
 #define pi 4*atan(1)
