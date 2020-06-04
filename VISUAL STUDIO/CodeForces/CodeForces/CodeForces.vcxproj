@@ -23,6 +23,7 @@
     <ClCompile Include="AandBCompErrors.cpp" />
     <ClCompile Include="Abacabadaba---.cpp" />
     <ClCompile Include="ABlendOfSpringTime.cpp" />
+    <ClCompile Include="AddOddorSubtractEven.cpp" />
     <ClCompile Include="AdjacentReplacements.cpp" />
     <ClCompile Include="AgainTwentyFive.cpp" />
     <ClCompile Include="AlarmClock.cpp" />
@@ -46,11 +47,13 @@
     <ClCompile Include="Blocks.cpp" />
     <ClCompile Include="BoardMoves.cpp" />
     <ClCompile Include="Books.cpp" />
+    <ClCompile Include="BooksExchange.cpp" />
     <ClCompile Include="Boredom.cpp" />
     <ClCompile Include="Borze.cpp" />
     <ClCompile Include="BoyOrGirl.cpp" />
     <ClCompile Include="BrokenKeyboard.cpp" />
     <ClCompile Include="Buttons.cpp" />
+    <ClCompile Include="BuyingShovels.cpp" />
     <ClCompile Include="CaisaAndPylons.cpp" />
     <ClCompile Include="CandiesAndTwoSisters.cpp" />
     <ClCompile Include="cApslOck.cpp" />
@@ -72,8 +75,10 @@
     <ClCompile Include="CowAndHaybales.cpp" />
     <ClCompile Include="CutRibbon.cpp" />
     <ClCompile Include="Deadline.cpp" />
+    <ClCompile Include="DeleteFromLeft.cpp" />
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="DiverseGarland.cpp" />
+    <ClCompile Include="DividingTheNumbers.cpp" />
     <ClCompile Include="DivisiblityBy8.cpp" />
     <ClCompile Include="DreamoonAndWifi.cpp" />
     <ClCompile Include="DreamoonLikesPermutations.cpp" />
@@ -113,6 +118,7 @@
     <ClCompile Include="HackerPackYourBags2.cpp" />
     <ClCompile Include="HelpfulMaths.cpp" />
     <ClCompile Include="HitTheLottery.cpp" />
+    <ClCompile Include="HolidayOfEquality.cpp" />
     <ClCompile Include="HonestCoach.cpp" />
     <ClCompile Include="howdidigethere.cpp" />
     <ClCompile Include="HQ9+.cpp" />
@@ -182,6 +188,7 @@
     <ClCompile Include="PairOfTopics.cpp" />
     <ClCompile Include="Pangram.cpp" />
     <ClCompile Include="ParkLighting.cpp" />
+    <ClCompile Include="Party.cpp" />
     <ClCompile Include="PashmakAndGarden.cpp" />
     <ClCompile Include="Password.cpp" />
     <ClCompile Include="Passwords.cpp" />
@@ -207,6 +214,7 @@
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Queue2.cpp" />
     <ClCompile Include="QueueAtSchool.cpp" />
+    <ClCompile Include="RadioStation.cpp" />
     <ClCompile Include="RaisingBacteria.cpp" />
     <ClCompile Include="Red-GreenTowers.cpp" />
     <ClCompile Include="RegistrationSystem.cpp" />
@@ -275,6 +283,7 @@
     <ClCompile Include="WrongSubtraction.cpp" />
     <ClCompile Include="XeniaAndRingroad.cpp" />
     <ClCompile Include="YetAnotherBrokenKeyboard.cpp" />
+    <ClCompile Include="YetAnotherPalindromeProblem.cpp" />
     <ClCompile Include="YetAnotherYetAnotherTask.cpp" />
     <ClCompile Include="YoungExplorers.cpp" />
   </ItemGroup>
