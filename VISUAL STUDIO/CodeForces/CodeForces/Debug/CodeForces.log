@@ -1,4 +1,4 @@
-﻿  LoveTriangle.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\LoveTriangle.cpp(25,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\LoveTriangle.cpp(40,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  Maximums.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Maximums.cpp(25,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Maximums.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   CodeForces.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Debug\CodeForces.exe

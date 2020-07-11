@@ -1,4 +1,3 @@
-
 /*
 #include <iostream>
 #include <algorithm>
@@ -45,13 +44,24 @@ void D(V<int> a) {
 	cout << endl;
 }
 
+ll product(V<int> a) {
+	ll p = 1;
+	for (int i : a) {
+		p *= i;
+	}
+	return p;
+}
 
 void solve() {
 	ll k;
 	cin >> k;
-	cout << "codeforces";
-	for (ll i = 0; i < k - 1; i++) {
-		cout << "s";
+	V<int> a(10, 1);
+	string t = "codeforces";
+	for (int i = 0; product(a) < k; i++) {
+		a[i % 10]++;
+	}
+	for (int i = 0; i < 10; i++) {
+		cout << string(a[i], t[i]);
 	}
 	cout << endl;
 }

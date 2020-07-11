@@ -37,6 +37,9 @@ using namespace std;
 #define IT(x) begin(x),end(x)
 const int mod = 1e9 + 7;
 
+V<pair<int, int>> adj = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
+
+
 ll stringToBinary(string s) {
 	ll n = 0, b = 1;
 	for (int i = s.size() - 1; i > -1; i--) {
