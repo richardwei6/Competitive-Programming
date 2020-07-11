@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -50,7 +49,15 @@ void D(V<int> a) {
 
 
 void solve() {
-	
+	int n;
+	cin >> n;
+	for (int i = 0, c = 1; i < n; i++, c += 2) {
+		if (c > 1000) {
+			c = 1;
+		}
+		cout << c << " ";
+	}
+	cout << endl;
 }
 
 int main() {

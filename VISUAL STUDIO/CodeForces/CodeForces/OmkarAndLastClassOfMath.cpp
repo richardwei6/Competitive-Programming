@@ -49,8 +49,33 @@ void D(V<int> a) {
 }
 
 
+
 void solve() {
-	
+	int n;
+	cin >> n;
+	if (n % 2 == 0) {
+		cout << n / 2 << " " << n / 2 << endl;
+	}
+	else if (n % 3 == 0) {
+		cout << n / 3 << " " << n - (n / 3) << endl;
+	}
+	else {
+		int x = 1, y = n - 1, l = n - 1;
+		for (int i = 2; i <= sqrt(n); i++) {
+			if (n % i == 0) {
+				if (lcm(i, n-i) < l) {
+					l = lcm(i, n - i);
+					x = i, y = n - i;
+				}
+				if (lcm(n/i, n-(n/i)) < l) {
+					l = lcm(n / i, n - (n / i));
+					x = n / i;
+					y = n - (n / i);
+				}
+			}
+		}
+		cout << x << " " << y << endl;
+	} 
 }
 
 int main() {

@@ -50,7 +50,44 @@ void D(V<int> a) {
 
 
 void solve() {
-	
+	int n;
+	cin >> n;
+	bool sorted = 1;
+	V<int> t(n);
+	for (int i = 0; i < n; i++) {
+		int j;
+		cin >> j;
+		if (j-1 != i) {
+			t[i] = 1;
+			sorted = 0;
+		}
+	}
+	if (sorted) {
+		cout << 0 << endl;
+	}
+	else {
+		bool f = 1, c = 0;
+		for (int i = 0; i < n; i++) {
+			if (t[i] > 0) {
+				if (f == 1) {
+					if (c == 0) {
+						c = 1;
+					}
+				}
+				else {
+					cout << 2 << endl;
+					return;
+				}
+			}
+			else {
+				if (c == 1) {
+					c = 0;
+					f = 0;
+				}
+			}
+		}
+		cout << 1 << endl;
+	}
 }
 
 int main() {

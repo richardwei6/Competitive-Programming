@@ -277,6 +277,9 @@
     <ClCompile Include="OddSelection.cpp" />
     <ClCompile Include="OdiousTask.cpp" />
     <ClCompile Include="OlesyaAndRodion.cpp" />
+    <ClCompile Include="OmkarAndBaseball.cpp" />
+    <ClCompile Include="OmkarAndCompletion.cpp" />
+    <ClCompile Include="OmkarAndLastClassOfMath.cpp" />
     <ClCompile Include="OracAndFactors.cpp" />
     <ClCompile Include="OracAndModels.cpp" />
     <ClCompile Include="PairOfTopics.cpp" />

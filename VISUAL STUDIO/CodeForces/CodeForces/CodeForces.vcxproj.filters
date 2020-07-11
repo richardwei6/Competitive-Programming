@@ -1215,6 +1215,15 @@
     <ClCompile Include="Maximums.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OmkarAndCompletion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OmkarAndLastClassOfMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OmkarAndBaseball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bigint.h">

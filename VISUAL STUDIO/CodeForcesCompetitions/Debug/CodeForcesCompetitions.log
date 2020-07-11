@@ -1,5 +1,4 @@
 ﻿  C.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(25,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(40,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(96,22): warning C4018: '<': signed/unsigned mismatch
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(24,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(42,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   CodeForcesCompetitions.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\Debug\CodeForcesCompetitions.exe

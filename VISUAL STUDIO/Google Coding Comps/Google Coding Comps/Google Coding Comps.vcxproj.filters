@@ -13,63 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Kick Start">
-      <UniqueIdentifier>{41d01df9-6a1b-43ad-a0f0-f1185854e892}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Kick Start\Round B">
-      <UniqueIdentifier>{a96e416e-2fcf-424e-9c61-41fd50f465ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Code Jam">
-      <UniqueIdentifier>{507f65ff-5faf-4d29-8b02-53e48ae1f007}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Code Jam\Qualification">
-      <UniqueIdentifier>{afd75f45-d0a1-4859-818b-13459a71ae8a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Practice">
       <UniqueIdentifier>{cc9c6941-ab1b-42fe-b7a3-e5d3e7d632f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Practice\Code Jam">
-      <UniqueIdentifier>{576e9796-bcb6-417b-97bf-4b9655fda9dc}</UniqueIdentifier>
+    <Filter Include="Source Files\Kick Start 2020">
+      <UniqueIdentifier>{41d01df9-6a1b-43ad-a0f0-f1185854e892}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Practice\Kick Start">
-      <UniqueIdentifier>{a68a5218-df3d-4b28-a3b0-a082dad3928e}</UniqueIdentifier>
+    <Filter Include="Source Files\Kick Start 2020\Round B">
+      <UniqueIdentifier>{a96e416e-2fcf-424e-9c61-41fd50f465ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Code Jam 2020">
+      <UniqueIdentifier>{507f65ff-5faf-4d29-8b02-53e48ae1f007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Code Jam 2020\Qualification">
+      <UniqueIdentifier>{afd75f45-d0a1-4859-818b-13459a71ae8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kick Start 2020\Round D">
+      <UniqueIdentifier>{daad76bd-30bb-4af9-8df2-4cff3ccc6ab8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="wanderingrobot.cpp">
-      <Filter>Source Files\Kick Start\Round B</Filter>
+      <Filter>Source Files\Kick Start 2020\Round B</Filter>
     </ClCompile>
     <ClCompile Include="robot.cpp">
-      <Filter>Source Files\Kick Start\Round B</Filter>
+      <Filter>Source Files\Kick Start 2020\Round B</Filter>
     </ClCompile>
     <ClCompile Include="busroutes.cpp">
-      <Filter>Source Files\Kick Start\Round B</Filter>
+      <Filter>Source Files\Kick Start 2020\Round B</Filter>
     </ClCompile>
     <ClCompile Include="bikepeak.cpp">
-      <Filter>Source Files\Kick Start\Round B</Filter>
+      <Filter>Source Files\Kick Start 2020\Round B</Filter>
     </ClCompile>
     <ClCompile Include="allocation.cpp">
-      <Filter>Source Files\Code Jam\Qualification</Filter>
+      <Filter>Source Files\Code Jam 2020\Qualification</Filter>
     </ClCompile>
     <ClCompile Include="plates.cpp">
-      <Filter>Source Files\Code Jam\Qualification</Filter>
+      <Filter>Source Files\Code Jam 2020\Qualification</Filter>
     </ClCompile>
-    <ClCompile Include="lastword.cpp">
-      <Filter>Source Files\Practice\Code Jam</Filter>
-    </ClCompile>
-    <ClCompile Include="rankandfile.cpp">
-      <Filter>Source Files\Practice\Code Jam</Filter>
-    </ClCompile>
-    <ClCompile Include="foregonesolution.cpp">
-      <Filter>Source Files\Practice\Code Jam</Filter>
-    </ClCompile>
-    <ClCompile Include="youcangoyourownway.cpp">
-      <Filter>Source Files\Practice\Code Jam</Filter>
-    </ClCompile>
-    <ClCompile Include="cryptopangrams.cpp">
-      <Filter>Source Files\Practice\Code Jam</Filter>
-    </ClCompile>
-    <ClCompile Include="BASE__.cpp">
+    <ClCompile Include="BASE.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,4 @@
 /*
-
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -34,9 +33,12 @@ using namespace std;
 #define max3(a,b,c) max2(max2(a,b),c)
 #define min2(a,b) ((a>b)?b:a)
 #define min3(a,b,c) min2(min2(a,b),c)
-#define what_is(x) cerr << #x << " is " << x << endl;
+#define what_is(x) cerr << #x << " is " << x << end
 #define PS push_back
 #define IT(x) begin(x),end(x)
+#define YES cout << "YES" << endl
+#define NO cout << "NO" << endl
+#define BOOLO(x) cout << (x ? "YES" : "NO") << endl
 const int mod = 1e9 + 7;
 
 void D(V<int> a) {
