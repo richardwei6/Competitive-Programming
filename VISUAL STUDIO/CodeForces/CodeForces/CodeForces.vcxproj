@@ -74,6 +74,7 @@
     <ClCompile Include="Borze.cpp" />
     <ClCompile Include="BoyOrGirl.cpp" />
     <ClCompile Include="BrokenKeyboard.cpp" />
+    <ClCompile Include="Bus.cpp" />
     <ClCompile Include="Buttons.cpp" />
     <ClCompile Include="BuyingShovels.cpp" />
     <ClCompile Include="C+=.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="ExercisingWalk.cpp" />
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="FafaAndHisCompany.cpp" />
+    <ClCompile Include="FairGame.cpp" />
     <ClCompile Include="FancyFence.cpp" />
     <ClCompile Include="FashionabLee.cpp" />
     <ClCompile Include="Fence.cpp" />
@@ -187,6 +189,7 @@
     <ClCompile Include="IgorInTheMuseum.cpp" />
     <ClCompile Include="ImageFrame.cpp" />
     <ClCompile Include="InfiniteSequnce.cpp" />
+    <ClCompile Include="InSearchofanEasyProblem.cpp" />
     <ClCompile Include="InsomniaCure.cpp" />
     <ClCompile Include="InterestingDrink.cpp" />
     <ClCompile Include="IQTest%28287%29.cpp" />
@@ -303,6 +306,7 @@
     <ClCompile Include="PlusMinus.cpp" />
     <ClCompile Include="PointsInSegments.cpp" />
     <ClCompile Include="PolandBallAndForest.cpp" />
+    <ClCompile Include="PolycarpAndLetters.cpp" />
     <ClCompile Include="PolycarpsPockets.cpp" />
     <ClCompile Include="Polygon.cpp" />
     <ClCompile Include="PolygonRover.cpp" />
@@ -310,6 +314,7 @@
     <ClCompile Include="PreparingOlypmia.cpp" />
     <ClCompile Include="Presents.cpp" />
     <ClCompile Include="PrincessesAndPrinces.cpp" />
+    <ClCompile Include="PrintA1337String.cpp" />
     <ClCompile Include="ProfessorGukiZRobot.cpp" />
     <ClCompile Include="ProtectSheep.cpp" />
     <ClCompile Include="QAQ.cpp" />

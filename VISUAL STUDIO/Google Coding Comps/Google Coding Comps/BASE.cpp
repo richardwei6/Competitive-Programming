@@ -40,6 +40,8 @@ using namespace std;
 #define YES cout << "YES" << endl
 #define NO cout << "NO" << endl
 #define BOOLO(x) cout << (x ? "YES" : "NO") << endl
+#define INT_MAX 2147483647
+#define INT_MIN -2147483647
 const int mod = 1e9 + 7;
 
 void solve() {

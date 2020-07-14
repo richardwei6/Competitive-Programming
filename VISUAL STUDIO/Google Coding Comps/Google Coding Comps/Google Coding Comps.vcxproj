@@ -138,10 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A.cpp" />
     <ClCompile Include="allocation.cpp" />
+    <ClCompile Include="B.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="bikepeak.cpp" />
     <ClCompile Include="busroutes.cpp" />
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="D.cpp" />
+    <ClCompile Include="E.cpp" />
     <ClCompile Include="plates.cpp" />
     <ClCompile Include="robot.cpp" />
     <ClCompile Include="wanderingrobot.cpp" />
