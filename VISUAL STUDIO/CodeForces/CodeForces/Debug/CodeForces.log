@@ -1,4 +1,9 @@
-﻿  PrintA1337String.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\PrintA1337String.cpp(25,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\PrintA1337String.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  CandyBags.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\CandyBags.cpp(25,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\CandyBags.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\CandyBags.cpp(58,25): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   CodeForces.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForces\CodeForces\Debug\CodeForces.exe
