@@ -1,9 +1,4 @@
-﻿  BASE.cpp
-  A.cpp
+﻿  A.cpp
 D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\A.cpp(24,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\A.cpp(42,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  B.cpp
-  C.cpp
-  D.cpp
-  Generating Code...
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\A.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   CodeForcesCompetitions.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\Debug\CodeForcesCompetitions.exe

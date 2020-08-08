@@ -1,4 +1,5 @@
 /*
+
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -26,6 +27,7 @@ using namespace std;
 #define ld long double
 #define ull unsigned long long
 #define V vector
+#define dq deque
 #define pp pair<ll,ll>
 #define pi 4*atan(1)
 #define inf 1000000000000
@@ -41,8 +43,9 @@ using namespace std;
 #define BOOLO(x) cout << (x ? "YES" : "NO") << endl
 const int mod = 1e9 + 7;
 
-void D(V<int> a) {
-	for (int i : a)
+template <class T>
+void D(T a) {
+	for (auto i : a)
 		cout << i << " ";
 	cout << endl;
 }
@@ -55,8 +58,7 @@ void solve() {
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	int t; cin >> t;
-	while (t--)
+	int t; cin >> t; while (t--)
 		solve();
 	return 0;
 }
