@@ -1,20 +1,13 @@
-﻿  B.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(24,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(43,1): warning C4005: 'INT_MIN': macro redefinition
+﻿  B1.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(24,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(45,1): warning C4005: 'INT_MIN': macro redefinition
 C:\Program Files (x86)\Visual Studio 2019\VC\Tools\MSVC\14.26.28801\include\limits.h(35): message : see previous definition of 'INT_MIN'
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(44,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(61,23): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(61,49): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(61,56): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(61,57): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-          with
-          [
-              _Ty=__int64
-          ]
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(61,51): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
-          with
-          [
-              _Ty=__int64
-          ]
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B.cpp(63,7): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(56,11): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(58,9): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(60,6): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(62,18): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(66,9): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(68,10): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\B1.cpp(72,18): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
   Google Coding Comps.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\Google Coding Comps\Google Coding Comps\Debug\Google Coding Comps.exe

@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Kick Start 2020\Round D">
       <UniqueIdentifier>{daad76bd-30bb-4af9-8df2-4cff3ccc6ab8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Kick Start 2020\Round E">
+      <UniqueIdentifier>{aea76511-dd7f-4bba-a0ff-1f47f6ae0a58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="wanderingrobot.cpp">
@@ -54,20 +57,41 @@
     <ClCompile Include="BASE.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="A.cpp">
+    <ClCompile Include="RecordBreaker.cpp">
       <Filter>Source Files\Kick Start 2020\Round D</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienPiano.cpp">
+      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+    </ClCompile>
+    <ClCompile Include="BeautyOfTree.cpp">
+      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+    </ClCompile>
+    <ClCompile Include="LockedDoors.cpp">
+      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestArithmetic.cpp">
+      <Filter>Source Files\Kick Start 2020\Round E</Filter>
+    </ClCompile>
+    <ClCompile Include="HighBuildings.cpp">
+      <Filter>Source Files\Kick Start 2020\Round E</Filter>
+    </ClCompile>
+    <ClCompile Include="Toys.cpp">
+      <Filter>Source Files\Kick Start 2020\Round E</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenStone.cpp">
+      <Filter>Source Files\Kick Start 2020\Round E</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="B.cpp">
-      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C.cpp">
-      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D.cpp">
-      <Filter>Source Files\Kick Start 2020\Round D</Filter>
-    </ClCompile>
-    <ClCompile Include="E.cpp">
-      <Filter>Source Files\Kick Start 2020\Round D</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

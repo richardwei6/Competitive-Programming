@@ -59,6 +59,7 @@ bool isPrime(int n) {
            return false; 
     return true; 
 } 
+
 ll bigPow(ll x, ll n, ll M) {
 	if (n < 0) {
 		return bigPow(1 / x, -n, M)%M;

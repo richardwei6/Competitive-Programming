@@ -1,4 +1,5 @@
-﻿  A.cpp
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\A.cpp(24,9): warning C4068: unknown pragma
-D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\A.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  C.cpp
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(24,9): warning C4068: unknown pragma
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\C.cpp(76): warning C4715: 'bigPow': not all control paths return a value
   CodeForcesCompetitions.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\CodeForcesCompetitions\Debug\CodeForcesCompetitions.exe

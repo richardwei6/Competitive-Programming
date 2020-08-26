@@ -27,6 +27,7 @@ using namespace std;
 #define ld long double
 #define ull unsigned long long
 #define V vector
+#define dq deque
 #define pp pair<ll,ll>
 #define pi 4*atan(1)
 #define inf 1000000000000
@@ -41,6 +42,15 @@ using namespace std;
 #define NO cout << "NO" << endl
 #define BOOLO(x) cout << (x ? "YES" : "NO") << endl
 const int mod = 1e9 + 7;
+#define INT_MAX 2147483647
+#define INT_MIN -2147483647
+
+template <class T>
+void D(T a) {
+	for (auto i : a)
+		cout << i << " ";
+	cout << endl;
+}
 
 void solve() {
 	

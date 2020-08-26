@@ -139,14 +139,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp" />
-    <ClCompile Include="allocation.cpp" />
     <ClCompile Include="B.cpp" />
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="D.cpp" />
+    <ClCompile Include="RecordBreaker.cpp" />
+    <ClCompile Include="LongestArithmetic.cpp" />
+    <ClCompile Include="allocation.cpp" />
+    <ClCompile Include="HighBuildings.cpp" />
+    <ClCompile Include="AlienPiano.cpp" />
+    <ClCompile Include="Toys.cpp" />
     <ClCompile Include="BASE.cpp" />
     <ClCompile Include="bikepeak.cpp" />
     <ClCompile Include="busroutes.cpp" />
-    <ClCompile Include="C.cpp" />
-    <ClCompile Include="D.cpp" />
-    <ClCompile Include="E.cpp" />
+    <ClCompile Include="BeautyOfTree.cpp" />
+    <ClCompile Include="GoldenStone.cpp" />
+    <ClCompile Include="LockedDoors.cpp" />
     <ClCompile Include="plates.cpp" />
     <ClCompile Include="robot.cpp" />
     <ClCompile Include="wanderingrobot.cpp" />
