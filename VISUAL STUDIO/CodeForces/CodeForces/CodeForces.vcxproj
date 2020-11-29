@@ -53,6 +53,7 @@
     <ClCompile Include="ArrivalOfTheGeneral.cpp" />
     <ClCompile Include="AssigningToClasses.cpp" />
     <ClCompile Include="AsSimpleasOneandTwo.cpp" />
+    <ClCompile Include="AvoidingZero.cpp" />
     <ClCompile Include="BachgoldProblem.cpp" />
     <ClCompile Include="Badge.cpp" />
     <ClCompile Include="BadTriangle.cpp" />
@@ -66,6 +67,7 @@
     <ClCompile Include="BearAndDifferentNames.cpp" />
     <ClCompile Include="BearAndFriendshipCondition.cpp" />
     <ClCompile Include="BearAndPoker.cpp" />
+    <ClCompile Include="BearAndRaspberry.cpp" />
     <ClCompile Include="BearAndThreeMusketeers.cpp" />
     <ClCompile Include="BeautifulMatrix.cpp" />
     <ClCompile Include="BeautifulString.cpp" />
@@ -151,6 +153,7 @@
     <ClCompile Include="DeleteFromLeft.cpp" />
     <ClCompile Include="DetectiveBook.cpp" />
     <ClCompile Include="DevuTheDumbGuy.cpp" />
+    <ClCompile Include="DigitGame.cpp" />
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="DirectingEdges.cpp" />
     <ClCompile Include="DistancestoZero.cpp" />
@@ -197,20 +200,25 @@
     <ClCompile Include="FixedPoints.cpp" />
     <ClCompile Include="FixYou.cpp" />
     <ClCompile Include="FlippingGame.cpp" />
+    <ClCompile Include="FloorNumber.cpp" />
     <ClCompile Include="Flowers.cpp" />
     <ClCompile Include="Football.cpp" />
     <ClCompile Include="FoxAndNames.cpp" />
     <ClCompile Include="GeorgeAndAccommodation.cpp" />
     <ClCompile Include="GiftsFixing.cpp" />
     <ClCompile Include="HexToInt.cpp" />
+    <ClCompile Include="Hotelier.cpp" />
     <ClCompile Include="Journey.cpp" />
+    <ClCompile Include="JugglingLetters.cpp" />
     <ClCompile Include="Limericks.cpp" />
     <ClCompile Include="LLPS.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
+    <ClCompile Include="Looping.cpp" />
     <ClCompile Include="LuckyNumbers.cpp" />
     <ClCompile Include="LuckyYear.cpp" />
     <ClCompile Include="MahmoudAndEhabandtheBipartiteness.cpp" />
     <ClCompile Include="MikeAndFun.cpp" />
+    <ClCompile Include="MinimumProduct.cpp" />
     <ClCompile Include="NearestMinimums.cpp" />
     <ClCompile Include="PatrickAndShopping.cpp" />
     <ClCompile Include="PhysicsPractical.cpp" />
@@ -220,6 +228,7 @@
     <ClCompile Include="QueriesOnAString.cpp" />
     <ClCompile Include="RainbowDashFluttershyAndChessColoring.cpp" />
     <ClCompile Include="RemoveSmallest.cpp" />
+    <ClCompile Include="RepeatingCipher.cpp" />
     <ClCompile Include="ShowerLine.cpp" />
     <ClCompile Include="Skyscrapers.cpp" />
     <ClCompile Include="SnowWalkingBot.cpp" />
@@ -227,6 +236,7 @@
     <ClCompile Include="StringModification.cpp" />
     <ClCompile Include="StronglyConnectedCity.cpp" />
     <ClCompile Include="Subarrays.cpp" />
+    <ClCompile Include="SubsetMex.cpp" />
     <ClCompile Include="SubstringRemovalGame.cpp" />
     <ClCompile Include="Taymyriscallingyou.cpp" />
     <ClCompile Include="TeamOlympiad.cpp" />
@@ -546,6 +556,7 @@
     <ClCompile Include="YetAnotherBrokenKeyboard.cpp" />
     <ClCompile Include="YetAnotherPalindromeProblem.cpp" />
     <ClCompile Include="YetAnotherTetrisProblem.cpp" />
+    <ClCompile Include="YetAnotherTwoIntegersProblem.cpp" />
     <ClCompile Include="YetAnotherYetAnotherTask.cpp" />
     <ClCompile Include="YoungExplorers.cpp" />
     <ClCompile Include="YoungPhysicist.cpp" />

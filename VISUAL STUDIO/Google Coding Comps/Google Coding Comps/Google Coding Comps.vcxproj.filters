@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Kick Start 2020\Round E">
       <UniqueIdentifier>{aea76511-dd7f-4bba-a0ff-1f47f6ae0a58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Kick Start 2020\Round F">
+      <UniqueIdentifier>{4968292d-ccef-4301-83a2-c05a248e17c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="wanderingrobot.cpp">
@@ -80,6 +83,18 @@
     </ClCompile>
     <ClCompile Include="GoldenStone.cpp">
       <Filter>Source Files\Kick Start 2020\Round E</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMQueue.cpp">
+      <Filter>Source Files\Kick Start 2020\Round F</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalHarvest.cpp">
+      <Filter>Source Files\Kick Start 2020\Round F</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintersDuel.cpp">
+      <Filter>Source Files\Kick Start 2020\Round F</Filter>
+    </ClCompile>
+    <ClCompile Include="Yeetzhee.cpp">
+      <Filter>Source Files\Kick Start 2020\Round F</Filter>
     </ClCompile>
     <ClCompile Include="A.cpp">
       <Filter>Source Files</Filter>

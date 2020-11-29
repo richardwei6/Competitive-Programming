@@ -1,4 +1,4 @@
-
+/*
 
 #include <iostream>
 #include <algorithm>
@@ -53,7 +53,9 @@ void D(T a) {
 }
 
 void solve() {
-	
+	ll n, k, s;
+	cin >> n >> k >> s;
+	cout << k + min(s, k - s) + (n - s) << endl;
 }
 
 int main() {

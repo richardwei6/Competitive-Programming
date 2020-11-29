@@ -139,9 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="A.cpp" />
+    <ClCompile Include="ATMQueue.cpp" />
     <ClCompile Include="B.cpp" />
     <ClCompile Include="C.cpp" />
     <ClCompile Include="D.cpp" />
+    <ClCompile Include="MetalHarvest.cpp" />
+    <ClCompile Include="PaintersDuel.cpp" />
+    <ClCompile Include="Yeetzhee.cpp" />
     <ClCompile Include="RecordBreaker.cpp" />
     <ClCompile Include="LongestArithmetic.cpp" />
     <ClCompile Include="allocation.cpp" />
