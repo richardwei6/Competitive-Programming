@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -51,78 +51,48 @@ void D(T a) {
 	cout << endl;
 }
 
-bool isValid(dq<int> a) {
-	for (int i = 0; i < a.size(); i++) {
-		if (a[i]%2 == i%2) {
-			return 0;
-		}
-	}
-	return 1;
-}
-
-ll arrayToInt(dq<int> a) {
-	ll n = 0;
-	for (ll i = 0; i < a.size(); i++) {
-		n *= 10;
-		n += a[i];
-	}
-	return n;
-}
-
-void increment(dq<int>& a, int i) {
-//	cout << "increment at - " << i << endl;
-	a[i]++;
-//	cout << "incremented " << a[i] << endl;
-	if (a[i] == 10) {
-		a[i] = 0;
-		if (i == 0) {
-			a.push_front(1);
+void solve() {
+	int x, y;
+	string s;
+	cin >> x >> y >> s;
+	char p = '?';
+	for (int i = 0; i < s.size(); i++) {
+		if (s[i] != '?') {
+			p = s[i];
 		}
 		else {
-			increment(a, i - 1);
+			s[i] = p;
 		}
 	}
-}
-
-void solve() {
-	ll l, r, c = 0;
-	cin >> l >> r;
-	dq<int> a;
-	while (l) {
-		a.push_front(l % 10);
-		l /= 10;
+	p = '?';
+	for (int i = s.size() - 1; i > -1; i--) {
+		if (s[i] != '?') {
+			p = s[i];
+		}
+		else {
+			s[i] = p;
+		}
 	}
-//	D(a);
-	while (1) {
-		bool f = 0;
-		for (int i = 0; i < a.size(); i++) {
-			if (!f) {
-				if (a[i] % 2 == i % 2) {
-					//cout << "not valid" << endl;
-					increment(a, i);
-					f = 1;
-				}
+
+//	cout << s << endl;
+	
+	int c = 0;
+
+	for (int i = 1; i < s.size(); i++) {
+		if (s[i] != s[i-1]) {
+
+			if (s[i-1] == 'C') {
+				c += x;
 			}
 			else {
-				a[i] = 0;
+				c += y;
 			}
+
 		}
-		if (arrayToInt(a) <= r) {
-			if (isValid(a)) {
-				//cout << "valid" << endl;
-				increment(a, a.size() - 1);
-				c++;
-			}
-		}
-		else {
-			break;
-		}
-		D(a);
-//		cout << arrayToInt(a) << endl;
 	}
+
 	cout << c << endl;
 }
-
 
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -138,3 +108,4 @@ int main() {
 
 
 /**/
+

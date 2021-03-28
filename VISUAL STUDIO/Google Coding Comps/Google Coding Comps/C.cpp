@@ -1,4 +1,3 @@
-/*
 
 #include <iostream>
 #include <algorithm>
@@ -53,8 +52,41 @@ void D(T a) {
 }
 
 void solve() {
-	
+	int n, k;
+	cin >> n >> k;
+
+	vector<int> lp(n);
+	for (int i = 0; i < n; i++) {
+		lp[i] = i + 1;
+	}
+
+	do {
+
+		vector<int> l = lp;
+
+		int c = 0;
+		for (int i = 0; i < n - 1; i++) {
+			int mn = l[i], mnp = i;
+			for (int j = i; j < n; j++) {
+				if (l[j] < mn) {
+					mnp = j;
+					mn = l[j];
+				}
+			}
+			c += mnp - i + 1;
+			reverse(begin(l) + i, begin(l) + mnp + 1);
+		}
+
+		if (k == c){
+			D(lp);
+			return;
+		}
+
+	} while (next_permutation(IT(lp)));
+
+	cout << "IMPOSSIBLE" << endl;
 }
+
 
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -70,3 +102,4 @@ int main() {
 
 
 /**/
+

@@ -53,9 +53,25 @@ void D(T a) {
 }
 
 void solve() {
-	ll n, k, s;
-	cin >> n >> k >> s;
-	cout << k + min(s, k - s) + (n - s) << endl;
+	int n;
+	cin >> n;
+	V<int> l(n);
+	for (auto& i : l) {
+		cin >> i;
+	}
+	int c = 0;
+	for (int i = 0; i < n-1; i++) {
+		int mn = l[i], mnp = i;
+		for (int j = i; j < n; j++) {
+			if (l[j] < mn) {
+				mnp = j;
+				mn = l[j];
+			}
+		}
+		c += mnp - i + 1;
+		reverse(begin(l) + i, begin(l) + mnp + 1);
+	}
+	cout << c << endl;
 }
 
 int main() {
@@ -72,3 +88,4 @@ int main() {
 
 
 /**/
+

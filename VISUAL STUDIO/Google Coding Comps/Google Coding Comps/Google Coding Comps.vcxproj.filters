@@ -37,6 +37,12 @@
     <Filter Include="Source Files\Kick Start 2020\Round F">
       <UniqueIdentifier>{4968292d-ccef-4301-83a2-c05a248e17c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Kick Start 2021">
+      <UniqueIdentifier>{9d073418-7431-460c-abb9-635c1f190ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kick Start 2021\Round A">
+      <UniqueIdentifier>{3a0eed88-f765-4ffd-83ae-31e8a31bb3a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="wanderingrobot.cpp">
@@ -107,6 +113,12 @@
     </ClCompile>
     <ClCompile Include="D.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KGoodnessString.cpp">
+      <Filter>Source Files\Kick Start 2021\Round A</Filter>
+    </ClCompile>
+    <ClCompile Include="LShapedPlots.cpp">
+      <Filter>Source Files\Kick Start 2021\Round A</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
