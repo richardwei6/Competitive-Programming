@@ -1,0 +1,9 @@
+﻿  Acowdemia3.cpp
+A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Acowdemia3.cpp(25,9): warning C4068: unknown pragma 'GCC'
+A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Acowdemia3.cpp(44,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  2 of 287 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  USACO Projects.vcxproj -> A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\x64\Release\USACO Projects.exe

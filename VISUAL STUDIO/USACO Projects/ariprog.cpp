@@ -3,7 +3,7 @@ ID: richard154
 PROG: ariprog
 LANG: C++
 */
-
+/*
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -69,3 +69,4 @@ int main() {
 
 	return 0;
 }
+*/

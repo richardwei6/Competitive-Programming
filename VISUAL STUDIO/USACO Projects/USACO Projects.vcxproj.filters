@@ -78,5 +78,17 @@
     <ClCompile Include="ariprog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BASE.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Acowdemia1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Acowdemia2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Acowdemia3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

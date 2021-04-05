@@ -1,2 +1,29 @@
-﻿  ariprog.cpp
-  USACO Projects.vcxproj -> D:\Users\richa\Desktop\Misc\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Debug\USACO Projects.exe
+﻿  Acowdemia1.cpp
+A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Acowdemia1.cpp(24,9): warning C4068: unknown pragma 'GCC'
+A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Acowdemia1.cpp(43,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ariprog.cpp
+  barnrepair.cpp
+  BASE.cpp
+  beads.cpp
+  combination.cpp
+  crypt1.cpp
+  dualpal.cpp
+  friday.cpp
+  gift1.cpp
+  indicium.cpp
+  milk.cpp
+  milkingcows.cpp
+  namethatnumber.cpp
+  nestingdepth.cpp
+  palsquare.cpp
+  removeallab.cpp
+  ride.cpp
+  skidesign.cpp
+  socialdistancing.cpp
+  Generating Code...
+  Compiling...
+  transform.cpp
+  vestigium.cpp
+  wormhole.cpp
+  Generating Code...
+  USACO Projects.vcxproj -> A:\Github Repositories\Competitve-Programming\VISUAL STUDIO\USACO Projects\Debug\USACO Projects.exe

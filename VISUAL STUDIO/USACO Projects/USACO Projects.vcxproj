@@ -123,8 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Acowdemia1.cpp" />
+    <ClCompile Include="Acowdemia2.cpp" />
+    <ClCompile Include="Acowdemia3.cpp" />
     <ClCompile Include="ariprog.cpp" />
     <ClCompile Include="barnrepair.cpp" />
+    <ClCompile Include="BASE.cpp" />
     <ClCompile Include="beads.cpp" />
     <ClCompile Include="combination.cpp" />
     <ClCompile Include="crypt1.cpp" />
