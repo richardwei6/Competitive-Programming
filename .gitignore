@@ -1,2 +1,7 @@
-
+*
+!/**/
+!*.*
 *.ipch
+*.DS_Store
+*.dSYM
+*.vscode
